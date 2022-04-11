@@ -9,7 +9,7 @@
 <script language="JScript">
 <![CDATA[
 	function Exec()	{
-		var r = new ActiveXObject("WScript.Shell").Run("powershell.exe -nop -Command 'Write-Host MSHTA_PT_execution_success");
+		var r = new ActiveXObject("WScript.Shell").Run("powershell.exe -nop -Command 'Write-Host MSHTA_PT_execution_success'");
 	}
 ]]>
 </script>
